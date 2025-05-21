@@ -8,6 +8,7 @@ public class SmartPhone {
 
     // 사용자 입력을 받는 메서드
     public static Addr inputAddrData() {
+        @SuppressWarnings("resource") // 스캐너 안닫음 경고 무시
         Scanner sc = new Scanner(System.in);
         System.out.print("이름: ");
         String name = sc.nextLine();
