@@ -1,0 +1,38 @@
+package test;
+
+public class Test{
+    public static void sort_bubble(int[] a) {
+        int n = a.length;
+
+        for (int j = 0; j < n - 1; j++) {
+            System.out.println("Bubble Sorted Data " + (j + 1) + "단계 : ");
+
+            for (int i = 0; i < n - 1 - j; i++) { // 마지막 요소는 비교할 필요 없음
+                if (a[i] > a[i + 1]) { // 오름차순 정렬
+                    int temp = a[i];
+                    a[i] = a[i + 1];
+                    a[i + 1] = temp;
+                }
+            }
+
+            // 현재 단계의 배열 출력
+            for (int k = 0; k < n; k++) {
+                System.out.print(a[k] + " ");
+            }
+            System.out.println();
+        }
+
+        System.out.println("\n최종 정렬 완료!");
+    }
+
+    public static void main(String[] args) {
+        int[] data = {5, 2, 9, 1, 7, 6};
+        System.out.println("정렬 전 데이터:");
+        for (int num : data) {
+            System.out.print(num + " ");
+        }
+        System.out.println("\n");
+
+        sort_bubble(data); // 정렬 호출
+    }
+}

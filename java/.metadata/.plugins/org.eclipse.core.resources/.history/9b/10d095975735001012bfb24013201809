@@ -1,0 +1,62 @@
+package mini_project_08_oop;
+
+import java.util.Scanner;
+
+public class SmartPhone {
+	
+	static Addr[] addr = new Addr[10];
+	static int total = 0;
+
+	public static Addr inputAddrData() {	
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("이름 : ");
+		String name = sc.nextLine();
+		System.out.print("전화번호 : ");
+		String number = sc.nextLine();
+		System.out.print("이메일 : ");
+		String email = sc.nextLine();
+		System.out.print("주소 : ");
+		String address = sc.nextLine();
+		System.out.print("그룹(친구/가족 : ");
+		String group = sc.nextLine();
+		
+		return new Addr(name, number, email, address, group);
+		
+	}
+
+	
+	public static void addAddr(Addr newAddr) {
+        if (total >= addr.length) {
+            System.out.println("연락처는 10개 이상 저장할 수 없습니다.");
+            return;
+        }
+        else {
+        	addr[total] = newAddr; // 새 연락처 저장
+            total++; // 연락처 개수 증가
+            System.out.println("주소록에 연락처가 추가되었습니다.");
+        }
+
+        }
+
+    }
+	
+	public void printAllAddr() {
+		
+	}
+	
+	public void searchAddr(String name) {
+		
+	}
+	
+	public void deleteAddr(String name) {
+		
+	}
+	
+	public void editAddr(String name, Addr newAddr) {
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+package sec02.exam07;
+
+public class FloatDoubleExample {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 실수값 저장
+//		float var1 = 3.14; // 컴파일에러 (Type mismatch)
+		float var2 = 3.14f;
+		
+		
+	}
+}

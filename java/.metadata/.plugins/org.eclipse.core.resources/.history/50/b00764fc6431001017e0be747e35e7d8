@@ -1,0 +1,36 @@
+package test;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		        int[] a = {69, 10, 30, 2, 16, 8, 31, 22};
+
+		        System.out.println("Input Data : 69 10 30 2 16 8 31 22\n");
+
+
+		        for (int step = 0; step < a.length - 1; step++) {
+		            int minIndex = step;
+
+
+		            for (int i = step + 1; i < a.length; i++) {
+		                if (a[i] < a[minIndex]) {
+		                    minIndex = i;
+		                }
+		            }
+
+
+		            int temp = a[step];
+		            a[step] = a[minIndex];
+		            a[minIndex] = temp;
+
+
+		            System.out.print("Sorted Data " + (step + 1) + "´Ü°è : ");
+		            for (int num : a) {
+		                System.out.print(num + " ");
+		            }
+		            System.out.println();
+		        }
+		    }
+		}

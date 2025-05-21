@@ -1,0 +1,49 @@
+package mini_project_08_oop;
+
+import java.util.Scanner;
+
+public class SmartPhoneMain {
+	
+
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("주소관리 메뉴---------\n>> 1. 연락처 등록\n>> 2. 모든 연락처 출력\n>> 3. 연락처 검색\n>> 4. 연락처 삭제\n>> 5. 연락처 수정\n>> 6. 프로그램 종료\n-------------------------");
+		int selectnumber = sc.nextInt();
+		
+		if(selectnumber == 1) {
+			Addr newAddr = SmartPhone.inputAddrData();
+			SmartPhone.addAddr(newAddr);
+
+		}
+		
+		else if (selectnumber == 2) {
+			
+		}
+		
+		else if (selectnumber == 3) {
+			
+		}
+		
+		else if (selectnumber == 4) {
+			
+		}
+		
+		else if (selectnumber == 5) {
+			
+		}
+		
+		else if (selectnumber == 6) {
+			
+		}
+		
+		else {
+			System.out.println("잘못 입력하였습니다. 다시 입력하세요.");
+		}
+		return;
+		
+
+	}
+	
+}

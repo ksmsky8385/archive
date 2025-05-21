@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A5A6BC3-6A00-F858-B219-E8986E951855" schemaObject="8507B955-AE87-6539-2743-F49B16EC3B21" name="ORDERS">
+<sourceConnName>OracleEdu</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>ORDERS</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDERID" id="59BB3A56-9FE6-1C0B-68DB-36CAB9AA6101">
+<sourceConnName>OracleEdu</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDERID</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTID" id="BD86E69F-C55C-E520-F509-0539473A7D5B">
+<sourceConnName>OracleEdu</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CUSTID</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB9D4D3C-A05D-4408-800F-F5D2670C9F41" referredColumn="20A6DD51-DBB1-AE29-5941-C399E7F4E6F2"/>
+</associations>
+</Column>
+<Column name="BOOKID" id="17ABD9B4-1416-F5E9-A5BD-A6A41C52B381">
+<sourceConnName>OracleEdu</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>BOOKID</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="424F4C22-677E-5515-94EE-4EB5DD5DFAE5" referredColumn="31050D2A-9DB7-2CE6-7A03-D992BAD00B57"/>
+</associations>
+</Column>
+<Column name="SALEPRICE" id="4E737C19-6A8F-2CBB-A773-2102CECCFD53">
+<sourceConnName>OracleEdu</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SALEPRICE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERDATE" id="54B18233-517F-364A-53CA-565968492645">
+<sourceConnName>OracleEdu</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDERDATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C0538E7-93F3-12FF-890C-8E95506B7672" schemaObject="8507B955-AE87-6539-2743-F49B16EC3B21" name="ORDERS_PK">
+<sourceConnName>OracleEdu</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>SYS_C006999</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:48 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59BB3A56-9FE6-1C0B-68DB-36CAB9AA6101"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="268AB75B-AD02-5B3A-14C4-3093EC16925B" name="SYS_C007000">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:48 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD86E69F-C55C-E520-F509-0539473A7D5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1BB8D60-89E3-2A9F-5C8D-6387389DE55D" name="SYS_C007001">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:48 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17ABD9B4-1416-F5E9-A5BD-A6A41C52B381"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
