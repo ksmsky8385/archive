@@ -1,0 +1,17 @@
+package mini_project_09_상속;
+
+public class Hqstore {
+	int 자장면;
+	int 짬뽕;
+	int 탕수육;
+	int 군만두;
+	int 공기밥;
+	
+	void whatStoreMenu() {System.out.println("본점 가격표입니다.");}
+	void jajangmyeon(int 자장면) {System.out.println(자장면 + "원 입니다.");}
+	void jjamppong(int 짬뽕) {System.out.println(짬뽕 + "원 입니다.");}
+	void tangsuyuk(int 탕수육) {System.out.println(탕수육 + "원 입니다.");}
+	void gunmandu(int 군만두) {System.out.println(군만두 + "원 입니다.");}
+	void gonggibab(int 공기밥) {System.out.println(공기밥 + "원 입니다.");}
+	
+}

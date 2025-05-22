@@ -32,9 +32,16 @@ public class SmartPhone {
         }
         addr[total] = newAddr;
         total++;
-        System.out.println("주소록에 연락처가 추가되었습니다!");
+        System.out.println("\n주소록에 연락처가 추가되었습니다!");
     }
 
+    // 연락처 출력 메서드
+	public void printAddr(Addr addr) {
+		System.out.printf("\n이름: %s\n전화번호: %s\n이메일: %s\n주소: %s\n그룹: %s\n", 
+		        addr.getName(), addr.getNumber(), addr.getEmail(), addr.getAddress(), addr.getGroup());
+		}
+
+    
     // 모든 연락처 출력
     public void printAllAddr() {
         if (total == 0) {
@@ -43,8 +50,8 @@ public class SmartPhone {
         }
         System.out.println("\n**연락처 목록**");
         for (int i = 0; i < total; i++) {
-            System.out.println("------------------------");
-            addr[i].printAddr();
+            System.out.print("------------------------");
+            printAddr(addr[i]);
         }
         System.out.println("------------------------");
     }
@@ -55,7 +62,7 @@ public class SmartPhone {
         for (int i = 0; i < total; i++) {
             if (addr[i].getName().equals(name)) {
                 System.out.println("\n검색 결과:");
-                addr[i].printAddr();
+                printAddr(addr[i]);
                 found = true;
                 break;
             }

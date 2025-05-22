@@ -1,0 +1,15 @@
+package mini_project_09_상속;
+
+public class Store2 extends Hqstore {
+
+	Store2(String 지점, String 자장면, String 짬뽕, String 탕수육, String 군만두, String 공기밥) {
+		this.지점 = 지점;
+		this.자장면 = 자장면;
+		this.짬뽕 = 짬뽕;
+		this.탕수육 = 탕수육;
+		this.군만두 = 군만두;
+		this.공기밥 = 공기밥;
+	}
+	
+}
+

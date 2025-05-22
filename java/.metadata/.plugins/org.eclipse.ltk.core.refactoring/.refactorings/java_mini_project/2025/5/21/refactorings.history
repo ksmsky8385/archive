@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;mini_project_09_상속.Main&apos; to &apos;MainClass&apos;&#x0D;&#x0A;- Original project: &apos;java_mini_project&apos;&#x0D;&#x0A;- Original element: &apos;mini_project_09_상속.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;mini_project_09_상속.MainClass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;mini_project_09_상속{Main.java[Main" matchStrategy="1" name="MainClass" qualified="false" references="true" similarDeclarations="false" stamp="1747902913620" textual="false" version="1.0"/>
+</session>

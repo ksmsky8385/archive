@@ -1,0 +1,9 @@
+package mini_project_09_상속;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		Store1 store1 = neww Store1("1호점", "7,000", "8,000", "12,000", "판매하지 않음", "1,000");
+	}
+
+}
