@@ -1,0 +1,15 @@
+package mini_project_10_추상클래스_2;
+
+public class MainClass {
+	public static void main(String[] args) {
+	
+		SonataHighGrade myCar = new SonataHighGrade();
+
+        CarSpecs specs = myCar.Sonata();
+
+        System.out.println("색상: " + specs.color);
+        System.out.println("타이어: " + specs.tire);
+        System.out.println("배기량: " + specs.displacement);
+        System.out.println("핸들: " + specs.handle);
+    }
+}

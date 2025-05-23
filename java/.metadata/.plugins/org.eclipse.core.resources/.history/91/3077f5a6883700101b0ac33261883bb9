@@ -1,0 +1,29 @@
+package mini_project_10_oop_상속;
+
+public class CompanyAddr extends SmartPhone {
+    private String companyName;
+    private String department;
+    private String position;
+
+    public CompanyAddr(String name, String number, String email, String address, String birth, String group,
+                       String companyName, String department, String position) {
+        super(name, number, email, address, birth, group);
+        if (group.equals("회사")) {
+            this.companyName = companyName;
+            this.department = department;
+            this.position = position;
+        } else {
+            this.companyName = "";
+            this.department = "";
+            this.position = "";
+        }
+    }
+
+    @Override
+    public void printAddr() {
+        super.printAddr();
+        if (getGroup().equals("회사")) {
+            System.out.printf("회사명: %s\n부서: %s\n직급: %s\n", companyName, department, position);
+        }
+    }
+}

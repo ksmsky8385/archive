@@ -1,0 +1,9 @@
+package mini_project_10_추상클래스_2;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		SonataHighGrade hg = new SonataHighGrade("레드", "광폭타이어", 2500, "파워핸들");
+		SonataHighGrade lg = new SonataLowGrade("블루", "일반타이어", 2000, "일반핸들");
+	}
+}

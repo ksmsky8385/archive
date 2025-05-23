@@ -1,0 +1,14 @@
+package mini_project_10_추상클래스_2;
+
+public class SonataLowGrade extends Sonata {
+	
+	@Override
+	public CarSpecs Sonata() {
+		String color = "블루";
+		String tire = "일반타이어";
+		int displacement = 2000;
+		String handle = "일반핸들";
+		
+		return new CarSpecs(color, tire, displacement, handle);
+	}
+}

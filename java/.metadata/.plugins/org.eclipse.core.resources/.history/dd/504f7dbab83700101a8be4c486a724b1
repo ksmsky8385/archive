@@ -1,0 +1,14 @@
+package mini_project_10_추상클래스_2;
+
+public class SonataHighGrade extends Sonata {
+	
+	@Override
+	public CarSpecs getCarSpecs() {
+		String color = "레드";
+		String tire = "광폭타이어";
+		int displacement = 2500;
+		String handle = "파워핸들";
+		
+		return new CarSpecs(color, tire, displacement, handle);
+	}
+}

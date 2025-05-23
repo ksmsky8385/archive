@@ -1,0 +1,25 @@
+package mini_project_10_추상클래스_2;
+
+public class MainClass {
+	public static void main(String[] args) {
+	
+		SonataHighGrade myCar = new SonataHighGrade();
+
+        CarSpecs specs = myCar.Sonata();
+        
+        int tax;
+        
+        if(specs.displacement>2000) {
+        	tax =  1500;
+        }
+        else if(specs.displacement<=2000) {
+        	tax =  1000;
+        }
+
+        System.out.println("색상: " + specs.color);
+        System.out.println("타이어: " + specs.tire);
+        System.out.println("배기량: " + specs.displacement);
+        System.out.println("핸들: " + specs.handle);
+		System.out.println("세금: " + tax);
+    }
+}

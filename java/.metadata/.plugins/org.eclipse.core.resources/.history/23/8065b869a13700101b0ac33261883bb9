@@ -1,0 +1,13 @@
+package mini_project_09_추상클래스;
+
+public class Student1 extends LaunchMenu {
+	
+	public Student1() {
+		this.Name = "학생1";
+	}
+	
+	@Override
+	public void MenuPrice() {
+		System.out.print(Price.rice() +Price.bulgogi() +Price.banana();}
+	}
+
