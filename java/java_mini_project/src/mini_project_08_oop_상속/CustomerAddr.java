@@ -19,10 +19,6 @@ public class CustomerAddr extends Addr {
             this.product = sc.nextLine();
             System.out.print("직급: ");
             this.position = sc.nextLine();
-        } else {
-            this.customerName = "";
-            this.product = "";
-            this.position = "";
         }
     }
 

@@ -19,10 +19,6 @@ public class CompanyAddr extends Addr {
             this.department = sc.nextLine();
             System.out.print("직급: ");
             this.position = sc.nextLine();
-        } else {
-            this.companyName = "";
-            this.department = "";
-            this.position = "";
         }
     }
 
