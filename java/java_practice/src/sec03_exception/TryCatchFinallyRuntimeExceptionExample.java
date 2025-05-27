@@ -1,4 +1,4 @@
-package sec03_try_catch_finally;
+package sec03_exception;
 
 public class TryCatchFinallyRuntimeExceptionExample {
 	public static void main(String[] args) {

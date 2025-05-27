@@ -1,2 +1,2 @@
-module practice {
+module java_practice {
 }
