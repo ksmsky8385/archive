@@ -1,0 +1,10 @@
+package mini_project_11_인터페이스;
+
+public interface IFunction {
+	
+	public void phoneName();
+	public void call();
+	public void generation();
+	public void remoteTV();
+	
+}
