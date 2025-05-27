@@ -1,9 +1,0 @@
-package mini_project_09_추상클래스;
-
-public abstract class LaunchMenu {
-
-	public String Name;
-	
-	public abstract void MenuPrice();
-
-}
