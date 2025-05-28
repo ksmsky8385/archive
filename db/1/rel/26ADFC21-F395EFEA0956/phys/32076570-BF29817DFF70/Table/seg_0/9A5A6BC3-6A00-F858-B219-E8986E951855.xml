@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDERS" directorySegmentName="seg_0" id="9A5A6BC3-6A00-F858-B219-E8986E951855">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<schemaObject>8507B955-AE87-6539-2743-F49B16EC3B21</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1828F141-54C0-9E11-1FAE-A679E1B23CB0</segment>
+<tableSpace>08E96942-66E8-0F0C-DB2E-5AEF9107610A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BOOKID" id="17ABD9B4-1416-F5E9-A5BD-A6A41C52B381">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALEPRICE" id="4E737C19-6A8F-2CBB-A773-2102CECCFD53">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDERDATE" id="54B18233-517F-364A-53CA-565968492645">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDERID" id="59BB3A56-9FE6-1C0B-68DB-36CAB9AA6101">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTID" id="BD86E69F-C55C-E520-F509-0539473A7D5B">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007000" id="268AB75B-AD02-5B3A-14C4-3093EC16925B">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:48 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007001" id="D1BB8D60-89E3-2A9F-5C8D-6387389DE55D">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:48 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDERS_PK" id="1C0538E7-93F3-12FF-890C-8E95506B7672">
+<createdBy>user</createdBy>
+<createdTime>2025-05-13 01:33:48 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<schemaObject>8507B955-AE87-6539-2743-F49B16EC3B21</schemaObject>
+<segment>AF5BF574-98DE-66BF-7796-01BFCA8A6C3B</segment>
+<tableSpace>08E96942-66E8-0F0C-DB2E-5AEF9107610A</tableSpace>
+<indexSegment>AF5BF574-98DE-66BF-7796-01BFCA8A6C3B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
