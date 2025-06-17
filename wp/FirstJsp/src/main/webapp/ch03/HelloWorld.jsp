@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +10,8 @@
 <div align="center">
 <H2>HelloWorld : 헬로월드</H2>
 <HR>
+현재 날짜와 시간은 : 
+  
 
 </div>
 </body>
