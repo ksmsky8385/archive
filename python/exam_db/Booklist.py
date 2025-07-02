@@ -33,7 +33,7 @@ class Booklist:
                     print(f"\t{row[0]}\t{row[1]}\t\t{row[2]}\t{row[3]}")
             
             print("데이터베이스 작업 완료")
-        except cx_Oracle.DatabassError as e:
+        except cx_Oracle.DatabaseError as e:
             print("SQL 실행 중 오류 발생 : ", e)
         finally:
             if self.connection:
